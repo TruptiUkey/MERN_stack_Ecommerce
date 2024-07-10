@@ -57,7 +57,7 @@ function Footer() {
             <br/><br/>
             <Section></Section>
             <hr/>
-            <div className='rights'>Copyright © 2021 Your Company, Inc.</div>
+            <div className='rights'>Copyright © 2021 Trupti Ukey, Inc.</div>
       </div>
     );
   }
