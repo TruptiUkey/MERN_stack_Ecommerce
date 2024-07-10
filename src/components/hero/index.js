@@ -1,4 +1,6 @@
 import './index.css';
+import Button from '../button';
+
 function Hero() {
     return (
       <div className="Hero">
@@ -8,7 +10,7 @@ function Hero() {
                 Check out the latest options from our summer small-batch 
                 release while they're still in stock.
             </p>
-            <button>Shop New Arrivals</button>
+            <Button val="Shop New Arrivals"></Button>
         </div>
       </div>
     );

@@ -1,10 +1,18 @@
+import image1 from './../../../../images/handcraft.avif';
+import image2 from './../../../../images/young-woman-standing-fashionable.avif';
+import image3 from './../../../../images/indian-pakistani-printed-lawn-frock.avif';
 
+const images = [image1,image2,image3];
 
-function Bgimage() {
-  const source = ['./../../../images/handcraft.avif','./../../../images/young-woman-standing-fashionable.avif','./../../../images/indian-pakistani-printed-lawn-frock.avif'];
+function Bgimage(props) {
+    const getImage = (props) => {
+      return images[0];
+    };
+  
     return (
          <div className='box' style={{
-          backgroundImage:`url(${require('./../../../../images/indian-pakistani-printed-lawn-frock.avif')})`
+          backgroundImage:`url(${getImage()})`,
+          backgroundRepeat:"no-repeat"
         }}></div>
     );
   }

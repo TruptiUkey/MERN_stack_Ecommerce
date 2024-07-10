@@ -1,4 +1,5 @@
 import './index.css';
+import Button from '../button';
 
 function Productivity() {
     return (
@@ -10,7 +11,7 @@ function Productivity() {
                or tangled flowcharts with our Focus system. 
               Just the undeniable urge to fill empty circles.
             </p>
-            <button>Shop Focus</button>
+            <Button val="Shop Focus"></Button>
         </div>
       </div>
     );

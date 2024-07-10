@@ -1,4 +1,5 @@
 import './index.css';
+import Button from '../../button';
 
 function Section() {
     return (
@@ -7,7 +8,7 @@ function Section() {
             <p>The latest deals and savings, sent to your inbox weekly.</p>
             <div className='flex'>
                 <input className="inputbox" type="text" />
-                <input className="btn" type='submit' value='Sign up'/>
+                <Button val="Sign up"></Button>
             </div>
         </div>
     )

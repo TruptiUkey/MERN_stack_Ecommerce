@@ -6,7 +6,7 @@ function Blocks() {
   const source = ['./../../../images/handcraft.avif','./../../../images/young-woman-standing-fashionable.avif','./../../../images/indian-pakistani-printed-lawn-frock.avif'];
     return (
       <div className="Blocks">
-          <Bgimage ></Bgimage>
+          <Bgimage idx='0'></Bgimage>
             <Bgcontent></Bgcontent>
       </div>
     );

@@ -1,4 +1,5 @@
 import './index.css';
+import Button from '../button';
 
 function Workspace() {
     return (
@@ -10,7 +11,7 @@ function Workspace() {
                  Reflect on the shallow nature of existence.
                  At least you have a really nice desk setup.
             </p>
-            <button>Shop New Arrivals</button>
+            <Button val="Workspace"></Button>
         </div>
       </div>
     );
