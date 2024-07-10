@@ -1,0 +1,7 @@
+.bgImg {
+    background-image: url('./../../images/productivity.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .89;
+    color: black;
+}

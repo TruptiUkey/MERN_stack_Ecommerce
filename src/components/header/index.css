@@ -1,0 +1,35 @@
+
+.head1{
+    display: flex;
+    justify-content: end;
+    height: max-content;
+    background-color: rgb(3, 3, 47);
+    color: white;
+}
+
+.head1 p {
+    margin: 0.8rem;
+}
+
+.head2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    background-color: rgb(103, 102, 102);
+    color: white;
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.list{
+    display: flex;
+}
+
+.list_item{
+    list-style-type: none;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}

@@ -1,0 +1,15 @@
+.Blocks {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    overflow: hidden;
+}
+.box {
+    width: 28vw;
+    height: 70vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+

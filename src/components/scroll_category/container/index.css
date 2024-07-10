@@ -1,0 +1,15 @@
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border: 1px solid black;
+    height: 20rem;
+    min-width: 15rem;
+    margin:0 2rem 2rem 2rem;
+    border-radius: 8px;
+}
+h3 {
+    z-index: 1;
+    color: white;
+}

@@ -1,0 +1,21 @@
+.Section {
+    width: 40vw;
+    margin:5vw;
+    border-radius: 10px;
+    margin: 3rem 0;
+}
+.inputbox{
+    width: 20rem;
+}
+input {
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: larger;
+}
+
+.btn {
+    background-color:  rgb(43, 56, 241);
+    color: white;
+    border: none;
+}

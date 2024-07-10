@@ -1,0 +1,26 @@
+.Footer {
+    background-color: rgb(3, 3, 47);
+    color: rgb(189, 183, 183);
+    padding: 2rem;
+}
+
+table {
+    width: 100vw;
+    height: auto;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+
+th, td {
+    height: 50px;
+    vertical-align: bottom;
+    text-align: left;
+}
+.flex {
+    display: flex;
+}
+hr{
+    border: 1px solid rgb(94, 92, 92);
+    margin-bottom: 2rem;
+    
+}

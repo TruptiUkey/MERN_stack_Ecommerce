@@ -1,0 +1,18 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 10px;
+}
+
+.header p {
+    color:rgb(56, 56, 231);
+    font-weight: 700;
+}
+
+.blocks{
+    display: flex;
+    overflow-x: scroll;
+   cursor: pointer;
+}
