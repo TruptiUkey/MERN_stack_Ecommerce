@@ -1,0 +1,9 @@
+.head1{
+    display: flex;
+    justify-content: end;
+    height: max-content;
+    background-color: rgb(3, 3, 47);
+    color: white;
+}
+
+
