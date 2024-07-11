@@ -16,12 +16,11 @@ function Category() {
         </div>
 
         <div className='blocks'>
-            <Container/>
-            <Container/>
-            <Container/>
-            <Container/>
-            <Container/>
-            <Container/>
+            <Container title="New Arrivals"/>
+            <Container title="Productivity"/>
+            <Container title="Workspace"/>
+            <Container title="Accessories"/>
+            <Container title="Sale"/>
         </div>
       </div>
     );

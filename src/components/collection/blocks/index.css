@@ -1,15 +1,19 @@
 .Blocks {
     display: flex;
     flex-direction: column;
-    margin: 1rem;
-    overflow: hidden;
+    margin:0;
+    padding: 0;
+    max-width: min-content;
+    margin: 1.5rem;
 }
+
 .box {
     width: 28vw;
     height: 70vh;
     border-radius: 10px;
     border: 1px solid black;
 }
+
 
 
 

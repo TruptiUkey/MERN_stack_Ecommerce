@@ -1,12 +1,12 @@
 import './index.css';
 
-function Container() {
+function Container(props) {
     return (
       <div className="block" style={{
         backgroundImage:`url(${require('./../../../images/indian-pakistani-printed-lawn-frock.avif')})`
       }}>
         
-          <h3>New Arrivals</h3>
+          <h3>{props.title}</h3>
       </div>
     );
   }
