@@ -21,7 +21,7 @@ function Container(props) {
         backgroundRepeat:"no-repeat"
       }}>
         
-          <h3>{props.title}</h3>
+          <h3 style={{color:'white'}}>{props.title}</h3>
       </div>
     );
   }
