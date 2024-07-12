@@ -2,12 +2,6 @@ import Container from './container';
 import './index.css';
 
 function Category() {
-    // const img = ['./images/hanging-beautiful-indian-dresses-different-colors-decoration',
-    //   './images/fashionable-clothing','./images/indian-pakistani-printed-lawn-frock', 
-    //   './images/model-career-kit-still-life','row-colorful-clothes-sale-boutique',
-    //   'young-woman-standing-fashionable'
-    // ];
-
     return (
       <div className="Category">
         <div className="header">
@@ -16,11 +10,11 @@ function Category() {
         </div>
 
         <div className='blocks'>
-            <Container title="New Arrivals"/>
-            <Container title="Productivity"/>
-            <Container title="Workspace"/>
-            <Container title="Accessories"/>
-            <Container title="Sale"/>
+            <Container title="New Arrivals" idx='0'/>
+            <Container title="Productivity" idx='1'/>
+            <Container title="Workspace" idx='2'/>
+            <Container title="Accessories" idx='3'/>
+            <Container title="Sale" idx='4'/>
         </div>
       </div>
     );

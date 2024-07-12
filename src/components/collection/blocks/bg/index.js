@@ -1,17 +1,18 @@
-import image1 from './../../../../images/handcraft.avif';
-import image2 from './../../../../images/young-woman-standing-fashionable.avif';
-import image3 from './../../../../images/indian-pakistani-printed-lawn-frock.avif';
+import image1 from './../../../../images/image1.avif';
+import image2 from './../../../../images/image2.avif';
+import image3 from './../../../../images/image3.avif';
+
 
 const images = [image1,image2,image3];
 
 function Bgimage(props) {
-    const getImage = (props) => {
-      return images[0];
+    const getImage = (i) => {
+      return images[i];
     };
   
     return (
          <div className='box' style={{
-          backgroundImage:`url(${getImage()})`,
+          backgroundImage:`url(${getImage(props.idx)})`,
           backgroundRepeat:"no-repeat"
         }}></div>
     );
